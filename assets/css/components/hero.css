@@ -1,0 +1,137 @@
+.hero {
+  margin-top: var(--size-sm);
+  color: var(--clr-light2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: var(--size-base);
+  padding: var(--size-sm);
+}
+
+.hero__title {
+  color: var(--clr-gray2);
+  font-weight: 300;
+  font-size: var(--size-md);
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+}
+
+
+.hero__imagecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__subtitle {
+  font-size: var(--size-lg);
+  color: var(--clr-gray);
+}
+
+.hero__text {
+  letter-spacing: -0.05rem;
+  max-width: 60ch;
+  font-size: var(--size-sm);
+  color: var(--clr-light);
+}
+
+.hero__img {
+  border-radius: 50%;
+  width: var(--size-8xl);
+  height: var(--size-8xl);
+}
+
+.hero__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--size-base);
+}
+
+/* xs */
+@media (min-width: 475px) {}
+
+/* sm */
+@media (min-width: 640px) {}
+
+/* md */
+@media (min-width: 768px) {
+
+  .hero {
+    margin-top: var(--size-base);
+    color: var(--clr-light2);
+    gap: var(--size-base);
+    padding: var(--size-sm);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 'text image';
+    text-align: start;
+  }
+
+  .hero__intro {
+    grid-area: text;
+  }
+
+  .hero__imagecontainer {
+    grid-area: image;
+  }
+
+  .hero__title {
+    font-size: var(--size-xl);
+  }
+
+  .hero__subtitle {
+    font-size: var(--size-2xl);
+    text-align: start;
+  }
+
+  .hero__text {
+    font-size: var(--size-md);
+    max-width: 90ch;
+  }
+
+  .hero__buttons {
+    justify-content: start;
+    gap: var(--size-lg);
+  }
+
+  .hero__img {
+    border-radius: 50%;
+    width: var(--size-8xl);
+    height: var(--size-8xl);
+  }
+
+}
+
+/* lg */
+@media (min-width: 1024px) {}
+
+/* xl */
+@media (min-width: 1280px) {
+
+  .hero__title {
+    font-size: var(--size-3xl);
+  }
+
+  .hero__subtitle {
+    font-size: var(--size-4xl);
+  }
+
+  .hero__text {
+    font-size: var(--size-xl);
+  }
+
+  .hero__buttons {
+    gap: var(--size-2xl);
+  }
+
+  .hero__img {
+    border-radius: 50%;
+    width: var(--size-10xl);
+    height: var(--size-10xl);
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {}
