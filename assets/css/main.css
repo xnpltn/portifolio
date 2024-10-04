@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('~/assets/fonts/Rubik-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #2e3440;
+  color: #eceff4;
+  font-family: 'Rubik';
+}
