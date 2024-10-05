@@ -1,21 +1,36 @@
+<script setup>
+  
+import { NuxtLink } from '#components'
+const BlogLink = h(NuxtLink, {to: "/blog"})
+</script>
 <template>
       <section class="hero container">
         <div class="hero__imagecontainer">
-      <!--<img class="hero__img" src="https://placehold.co/600x600"></img>-->
-      <img class="hero__img" src="/signature.svg"></img>
+          <img class="hero__img" alt="xnpltn signature or photo or mascot" src="/signature.svg"></img>
         </div>
         <div class="hero__intro">
-          <h2 class="hero__title">Platon Y'all</h2>
-          <h2 class="hero__subtitle">A Developer</h2>
+          <p class="hero__text">
+        Hi, I am <Strong>Platon</Strong><span class="italic__text"> &nbsp; &nbsp; read /pla.tɔ̃/ &nbsp; not &nbsp; /play-ton/</span><br/>
+            Don't know how you landed here but at least someone is watching my ugly site lol.
+          </p>
 
-        <p class="hero__text">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <div class="hero__buttons">
-          <Button as="a">Github</Button>
-          <Button as="a">Read my blog</Button>
+          <p class="hero__text">
+            Building things is what I enjoy.
+            Interested in <Strong>Backend</Strong> and <Strong>Terminal Applications</Strong><br/>
+            Anything Written in the following languages, sign me up:
+          </p>
+          <ul style="list-style: none;">
+            <li><Strong>Go</Strong> (<span class="italic__text">My Favourite</span>)</li>
+            <li><Strong>C</Strong></li>
+            <li><Strong>Rust</Strong></li>
+            <li><Strong>Javascript</Strong></li>
+            <li><Strong>Python</Strong></li>
+            <li><span class="italic__text">And More</span></li>
+          </ul>
+          <div class="hero__buttons">
+            <Button as="a" href="https://github.com/">Github</Button>
+            <Button :as="BlogLink">Read my blog</Button>
+          </div>
         </div>
-        </div>
-
       </section>
 </template>

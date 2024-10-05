@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '~/assets/css/components/header.css',
     '~/assets/css/components/hero.css',
     '~/assets/css/components/footer.css',
+    '~/assets/css/components/blog.css',
   ],
   modules: ['@nuxt/icon', '@nuxt/content'],
 })

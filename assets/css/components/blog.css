@@ -1,3 +1,14 @@
-.blog{
-  
+.blog__title {
+  color: var(--clr-light);
+}
+
+
+
+.notfound {
+  text-align: center;
+  display: flex;
+  align-items: cener;
+  justify-content: center;
+  color: #fff;
+  padding: 3rem;
 }

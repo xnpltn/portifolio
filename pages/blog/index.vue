@@ -12,9 +12,14 @@ useHead({
 </script>
 <template>
   <div class="container">
-    <h1>
-      Recent Writings
-    </h1>
-
+        <h1 class="blog__title">Latest Articles</h1>
+        <div class="notfound">
+          <span>Writing one soon, I promise</span>
+        </div>
   </div>
 </template>
+
+<style scoped>
+
+  
+</style>

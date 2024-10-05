@@ -33,7 +33,7 @@
   letter-spacing: -0.05rem;
   max-width: 60ch;
   font-size: var(--size-sm);
-  color: var(--clr-light);
+  color: var(--clr-light2);
 }
 
 .hero__img {

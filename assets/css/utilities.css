@@ -19,6 +19,16 @@
 /* 2xl */
 @media (min-width: 1536px) {}
 
+.strong {
+  font-weight: bold;
+  color: var(--clr-light);
+  font-style: var(--size-sm);
+}
+
+.italic__text {
+  font-style: italic;
+  color: gray;
+}
 
 .container {
   width: 100%;
@@ -87,6 +97,7 @@
   border-radius: 0.375rem;
   padding: 0.5em 1em;
   letter-spacing: -0.05em;
+  text-decoration: none;
   transition: transform 0.3s;
 }
 
@@ -118,6 +129,11 @@
 
 .secondary {
   background-color: var(--clr-light);
+  color: var(--clr-dark);
+}
+
+.secondary:hover {
+  background-color: var(--clr-light2);
   color: var(--clr-dark);
 }
 
