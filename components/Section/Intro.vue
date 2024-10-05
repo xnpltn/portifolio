@@ -1,7 +1,8 @@
 <template>
       <section class="hero container">
         <div class="hero__imagecontainer">
-        <img class="hero__img" src="https://placehold.co/200x200"></img>
+      <!--<img class="hero__img" src="https://placehold.co/600x600"></img>-->
+      <img class="hero__img" src="/signature.svg"></img>
         </div>
         <div class="hero__intro">
           <h2 class="hero__title">Platon Y'all</h2>

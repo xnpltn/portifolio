@@ -38,8 +38,8 @@
 
 .hero__img {
   border-radius: 50%;
-  width: var(--size-8xl);
-  height: var(--size-8xl);
+  width: var(--size-10xl);
+  height: var(--size-10xl);
 }
 
 .hero__buttons {
@@ -60,11 +60,10 @@
 
   .hero {
     margin-top: var(--size-base);
-    color: var(--clr-light2);
     gap: var(--size-base);
     padding: var(--size-sm);
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 2fr;
     grid-template-areas: 'text image';
     text-align: start;
   }
@@ -97,9 +96,9 @@
   }
 
   .hero__img {
-    border-radius: 50%;
-    width: var(--size-8xl);
-    height: var(--size-8xl);
+    border-radius: 0;
+    width: 16rem;
+    height: 16rem;
   }
 
 }
@@ -127,9 +126,9 @@
   }
 
   .hero__img {
-    border-radius: 50%;
-    width: var(--size-10xl);
-    height: var(--size-10xl);
+    /*border-radius: 50%;*/
+    width: 25rem;
+    height: 25rem;
   }
 }
 

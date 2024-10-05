@@ -19,19 +19,6 @@
 /* 2xl */
 @media (min-width: 1536px) {}
 
-.btn {
-  display: inline-block;
-  min-height: 2rem;
-  border: none;
-  border-radius: 0.375rem;
-  padding: 0.5em 1em;
-  letter-spacing: -0.05em;
-  transition: transform 0.3s;
-}
-
-.btn:hover {
-  transform: translateY(-3px);
-}
 
 .container {
   width: 100%;
@@ -43,6 +30,7 @@
 }
 
 
+/* Media querry utilities */
 /* xs */
 @media (min-width: 475px) {
   .container {
@@ -91,15 +79,42 @@
   }
 }
 
+/* button utilities */
+.btn {
+  display: inline-block;
+  min-height: 2rem;
+  border: none;
+  border-radius: 0.375rem;
+  padding: 0.5em 1em;
+  letter-spacing: -0.05em;
+  transition: transform 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
 .primary {
   color: var(--clr-light);
   background: none;
 }
 
-
-.primary:hover {
-  text-decoration: underline;
+.primary::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--clr-gray);
+  transition: width 0.3s ease;
 }
+
+.primary:hover::after {
+  width: 100%;
+}
+
 
 .secondary {
   background-color: var(--clr-light);

@@ -11,6 +11,5 @@ export default defineNuxtConfig({
     '~/assets/css/components/hero.css',
     '~/assets/css/components/footer.css',
   ],
-
-  modules: ['@nuxt/icon', '@nuxt/content']
+  modules: ['@nuxt/icon', '@nuxt/content'],
 })
