@@ -73,7 +73,7 @@ button {
 
 
 .content {
-  max-width: 43rem;
+  max-width: 43rem !important;
 }
 
 .content__container {

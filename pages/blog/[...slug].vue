@@ -1,6 +1,4 @@
 <template>
-  <main class="container content__container">
-    <ContentDoc class="content"/>
-  </main>
+    <ContentDoc class="container content"/>
 </template>
 

@@ -1,3 +1,11 @@
+---
+
+title: The benefits of learning to code 
+description: Benefits of learning to code 
+
+---
+
+
 # The Benefits of Learning to Code
 
 In today's fast-paced, tech-driven world, coding has become an essential skill for almost everyone, regardless of their profession. Whether you're working in healthcare, finance, or even creative industries, understanding how to code can significantly improve your efficiency and open new doors. In this blog post, we'll explore some of the key benefits of learning to code and why it's a skill worth mastering.
