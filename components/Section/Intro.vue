@@ -13,6 +13,7 @@ const BlogLink = h(NuxtLink, {to: "/blog"})
         Hi, I am <Strong>Platon</Strong><span class="italic__text"> &nbsp; &nbsp; read /pla.tɔ̃/ &nbsp; not &nbsp; /play-ton/</span><br/>
             Don't know how you landed here but at least someone is watching my ugly site lol.
           </p>
+      
 
           <p class="hero__text">
             Building things is what I enjoy.

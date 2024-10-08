@@ -19,6 +19,7 @@ htmlAttrs: {lang: "en"},
   ]
 })
 
+
 </script>
 <template>
     <NuxtRouteAnnouncer />

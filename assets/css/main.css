@@ -70,3 +70,14 @@ button {
 .btn {
   background-color: var(--clr-dark);
 }
+
+
+.content {
+  max-width: 43rem;
+}
+
+.content__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

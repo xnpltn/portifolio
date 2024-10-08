@@ -11,6 +11,34 @@ export default defineNuxtConfig({
     '~/assets/css/components/hero.css',
     '~/assets/css/components/footer.css',
     '~/assets/css/components/blog.css',
+    '~/assets/css/components/content.css',
   ],
   modules: ['@nuxt/icon', '@nuxt/content'],
+  content: {
+    highlight: {
+      theme: {
+        default: 'catppuccin-macchiato',
+      },
+      langs: [
+        'go',
+        'python',
+        'rust',
+        'shellscript',
+        'c',
+        'cpp',
+        'md',
+        'typescript',
+        'html',
+        'css',
+        'js',
+        'vue',
+        'json',
+        'java',
+        'mdc',
+        'haskell',
+        'jsx',
+        'c#',
+      ]
+    }
+  }
 })
