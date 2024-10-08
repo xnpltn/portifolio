@@ -11,10 +11,6 @@ useHead({
 })
 
 const {data} = await useAsyncData('posts', () => queryContent().find())
-const route = useRoute()
-
-
-console.log(data.value)
 
 </script>
 <template>

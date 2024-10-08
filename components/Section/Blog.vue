@@ -2,8 +2,6 @@
 
 const {data} = await useAsyncData('posts', () => queryContent().find())
 
-console.log(data.value)
-
 </script>
 
 <template>
