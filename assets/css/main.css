@@ -81,3 +81,64 @@ button {
   align-items: center;
   justify-content: center;
 }
+
+
+
+.content {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 1px solid red;
+}
+
+
+/* Media querry utilities */
+/* xs */
+@media (min-width: 475px) {
+  .content {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+
+  .content {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+
+  .content {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+
+  .content {
+    max-width: 1024px;
+  }
+
+}
+
+/* xl */
+@media (min-width: 1280px) {
+
+  .content {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+
+  .content {
+    max-width: 1538px;
+  }
+}

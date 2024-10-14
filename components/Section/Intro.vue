@@ -17,19 +17,15 @@ const BlogLink = h(NuxtLink, {to: "/blog"})
 
           <p class="hero__text">
             Building things is what I enjoy.
-            Interested in <Strong>Backend</Strong> and <Strong>Terminal Applications</Strong><br/>
-            Anything Written in the following languages, sign me up:
+            Interested in <Strong>Backend</Strong> and <Strong>Terminal Applications. &nbsp; </Strong>
+            Anything Written in : <br/>
+            <Strong>Go</Strong> (<span class="italic__text"> My Favourite</span>), &nbsp; <Strong>Rust</Strong>, &nbsp; <Strong>C</Strong>, &nbsp; <br/>
+            <Strong>Python</Strong>, &nbsp; and <Strong> Javascript</Strong> &nbsp; sign me up :/ 
           </p>
-          <ul style="list-style: none;">
-            <li><Strong>Go</Strong> (<span class="italic__text">My Favourite</span>)</li>
-            <li><Strong>C</Strong></li>
-            <li><Strong>Rust</Strong></li>
-            <li><Strong>Javascript</Strong></li>
-            <li><Strong>Python</Strong></li>
-            <li><span class="italic__text">And More</span></li>
-          </ul>
+
+          <p><Strong>VueJs</Strong> is the best web framework of all time btw!</p>
           <div class="hero__buttons">
-            <Button as="a" href="https://github.com/">Github</Button>
+            <Button as="a" href="https://github.com/xnpltn">Github</Button>
             <Button :as="BlogLink">Read my blog</Button>
           </div>
         </div>

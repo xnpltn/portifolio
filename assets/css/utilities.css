@@ -68,6 +68,8 @@
 @media (min-width: 1024px) {
 
   .container {
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
     max-width: 1024px;
   }
 
@@ -77,6 +79,8 @@
 @media (min-width: 1280px) {
 
   .container {
+    padding-left: 15rem !important;
+    padding-right: 15rem !important;
     max-width: 1280px;
   }
 }
@@ -85,6 +89,8 @@
 @media (min-width: 1536px) {
 
   .container {
+    padding-left: 20rem !important;
+    padding-right: 20rem !important;
     max-width: 1538px;
   }
 }

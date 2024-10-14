@@ -1,4 +1,4 @@
 <template>
-    <ContentDoc class="container content"/>
+    <ContentDoc class="content"/>
 </template>
 

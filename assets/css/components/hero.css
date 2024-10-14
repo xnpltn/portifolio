@@ -32,7 +32,7 @@
 .hero__text {
   letter-spacing: -0.05rem;
   max-width: 60ch;
-  font-size: var(--size-sm);
+  font-size: var(--size-lg);
   color: var(--clr-light2);
 }
 

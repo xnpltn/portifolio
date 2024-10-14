@@ -26,7 +26,8 @@
 .blog__card {
   background-color: #101623;
   border-radius: var(--size-lg);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+  border-color: red;
+  border-style: solid;
   padding: var(--size-lg);
   transition: transform 0.3s, box-shadow 0.3s;
   width: 100%;
@@ -36,7 +37,6 @@
 
 .blog__card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9);
 }
 
 .blog__link {
