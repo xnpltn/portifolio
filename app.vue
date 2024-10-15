@@ -19,11 +19,9 @@ useHead({
 });
 </script>
 
-
-</script>
 <template>
     <NuxtRouteAnnouncer />
     <NuxtLayout>
-      <NuxtPage />
+      <NuxtPage/>
     </NuxtLayout>
 </template>
