@@ -13,7 +13,17 @@ export default defineNuxtConfig({
     '~/assets/css/components/blog.css',
     '~/assets/css/components/content.css',
   ],
-  modules: ['@nuxt/icon', '@nuxt/content'],
+  modules: ['@nuxt/icon', '@nuxt/content', '@nuxt/image'],
+  image: {
+    screens: {
+      'xs': 475,
+      'sm': 640,
+      'md': 768,
+      'lg': 1024,
+      'xl': 1280,
+      '2xl': 1536
+    },
+  },
   content: {
     highlight: {
       theme: {

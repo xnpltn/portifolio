@@ -6,7 +6,7 @@ const BlogLink = h(NuxtLink, {to: "/blog"})
 <template>
 <section class="hero container">
   <div class="hero__imagecontainer">
-    <img class="hero__img" alt="xnpltn signature or photo or mascot" src="/signature.svg" />
+    <NuxtImg class="hero__img" alt="xnpltn signature or photo or mascot" src="/signature.svg" :placeholder="[50, 25, 75, 5]" />
   </div>
   <div class="hero__intro">
     <p class="hero__text">
