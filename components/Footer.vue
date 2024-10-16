@@ -7,7 +7,7 @@
         as="a"
         aria-label="see my github @xnpltn"
         intent="primary"
-        href="https://github.com"
+        href="https://github.com/xnpltn"
         target="_blank"
       >
         <Icon size="20" name="uil:github" />
