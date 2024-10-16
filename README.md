@@ -1,6 +1,11 @@
 ## Portifolio
 
-My Portifolio
+My Portifolio website
+I tried soo hard with the css lol..
 
+#### Development
+```bash
+npm run dev
+```
 
-work in progress!
+[MIT]("https://opensource.org/license/MIT") License

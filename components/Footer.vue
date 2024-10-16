@@ -1,7 +1,7 @@
 <template>
   <footer class="footer container">
-    <h1 class="footer__title">Xnpltn</h1>
-    <h2 class="footer__copy">&copy; {{ new Date().getFullYear() }} Xnpltn</h2>
+    <h2 class="footer__title">Xnpltn</h2>
+    <h2 class="footer__copy">&copy; {{ new Date().getFullYear() }}</h2>
     <div class="footer__socials">
       <Button
         as="a"
