@@ -1,15 +1,15 @@
 <script setup>
 useSeoMeta({
-  title: "Platon's Portfolio - Software Engineer | Backend | Terminal Apps",
-  ogTitle: "Platon's Portfolio - Software Engineer",
-  description: 'Experienced software engineer specializing in backend development, terminal applications, and systems programming with Go, Rust, C, and more.',
-  ogDescription: 'Explore my portfolio. I specialize in backend development, terminal apps, and systems programming with a focus on Go, Rust, and C.',
+  title: "Xnpltn - Software Engineer | Backend | Terminal Apps",
+  ogTitle: "xnpltn - Software Engineer | Backend Developer | Terminal Apps Developer",
+  description: 'xnpltn on twitter, software engineer specializing in backend development, terminal applications, and systems programming',
+  ogDescription: 'xnpltn on twitter and internet, A backend developer, A freelancer , terminal apps developer, and systems developer',
   ogImage: '/signature.png',
   twitterCard: 'summary_large_image', 
-  twitterTitle: "Platon's Portfolio - Software Engineer",
-  twitterDescription: 'Backend developer and terminal applications specialist. Learn more about my work and projects.',
+  twitterTitle: "xnplt - Software Engineer | Backend Developer",
+  twitterDescription: 'Backend Developer, Freelancer, Systems Developer. Gamer',
   twitterImage: '/signature.png', 
-  keywords: 'Platon, software engineer, backend development, terminal applications, Go, Rust, C, programming, portfolio, Vue, Javascript, Python',
+  keywords: 'xnpltn, software engineer, backend development, terminal applications, Go, Rust, C, programming, portfolio, Vue, Javascript, Python',
 });
 
 useHead({
