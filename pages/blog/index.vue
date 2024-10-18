@@ -1,7 +1,7 @@
 <script setup>
   
 useHead({
-  title: "Blog - Xnpltn",
+  title: "Xnpltn | Blog",
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],
@@ -10,7 +10,7 @@ useHead({
   ]
 })
 
-const {data} = await useAsyncData('posts', () => queryContent().find())
+const { data } = await useAsyncData('posts', () => queryContent().find())
 
 </script>
 <template>
@@ -29,23 +29,23 @@ const {data} = await useAsyncData('posts', () => queryContent().find())
 
 <style scoped>
   ul {
-  list-style: none; /* Remove bullets */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
+  list-style: none; 
+  padding: 0;  
+  margin: 0;
 }
 
 li {
-  margin-bottom: 10px; /* Space between list items */
+  margin-bottom: 10px;
 }
 
 a {
-  text-decoration: none; /* Remove underline */
-  color: #3498db; /* Link color */
+  text-decoration: none;
+  color: #3498db;
   font-weight: bold;
 }
 
 a:hover {
-  color: #2980b9; /* Change color on hover */
-  text-decoration: underline; /* Add underline on hover */
+  color: #2980b9;
+  text-decoration: underline; 
 }
 </style>
