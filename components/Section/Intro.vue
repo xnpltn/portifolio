@@ -10,8 +10,7 @@ const BlogLink = h(NuxtLink, {to: "/blog"})
   </div>
   <div class="hero__intro">
     <p class="hero__text">
-      Hi, I am <Strong>Platon</Strong>
-      <span class="italic__text">&nbsp;&nbsp;read /pla.tɔ̃/</span><br />
+        Hi, I am <Strong>Platon </Strong><span class="italic__text"> &nbsp;&nbsp; @xnpltn over the internet</span><br/>
       Don't know how you landed here but at least someone is watching my ugly site lol.
     </p>
 
@@ -23,6 +22,7 @@ const BlogLink = h(NuxtLink, {to: "/blog"})
     </p>
 
     <p><Strong>VueJs</Strong> is the best web framework of all time btw!</p>
+    <p class="italic__text">Javascript doesn't belong on the server! :)</p>
     <div class="hero__buttons">
       <Button as="a" href="https://github.com/xnpltn" target="_blank">Github</Button>
       <Button :as="BlogLink">Read my blog</Button>
