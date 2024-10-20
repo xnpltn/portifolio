@@ -11,7 +11,7 @@ const BlogLink = h(NuxtLink, {to: "/blog"})
   <div class="hero__intro">
     <p class="hero__text">
       Hi, I am <Strong>Platon</Strong>
-      <span class="italic__text">&nbsp;&nbsp;read /pla.tɔ̃/ &nbsp; not &nbsp; /play-ton/</span><br />
+      <span class="italic__text">&nbsp;&nbsp;read /pla.tɔ̃/</span><br />
       Don't know how you landed here but at least someone is watching my ugly site lol.
     </p>
 
