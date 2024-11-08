@@ -1,7 +1,7 @@
 <script setup>
   
 useHead({
-  title: "Xnpltn | Blog",
+  title: "Platon @Xnpltn | Blog",
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],

@@ -21,7 +21,6 @@ useHead({
   meta: [{ name: 'viewport', content: 'width=device-width, initial-scale=1' }],
   link: [{ rel: 'icon', type: 'image/x-icon', href: '/signature.png' }],
 });
-//const BlogLink = h(NuxtLink, {to: "/blog"})
 
 </script>
 
