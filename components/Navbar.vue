@@ -8,6 +8,7 @@ const HomeLink = h(NuxtLink, {to: "/"})
 
 <template>
   <header class="container header">
+    <nav>
     <ul class="header__menu">
       <li>
         <Button class="header__link" :as="HomeLink" intent="primary" >Home</Button>
@@ -16,5 +17,6 @@ const HomeLink = h(NuxtLink, {to: "/"})
         <Button class="header__link" :as="BlogLink" intent="primary">Blog</Button>
       </li>
     </ul>
+    </nav>
   </header>
 </template>
