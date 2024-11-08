@@ -13,7 +13,7 @@ useSeoMeta({
   twitterTitle: data.value.title,
   twitterDescription: data.value.description,
   twitterImage: '/signature.png', 
-  keywords: 'Neovim, Vim, Visual Studio Code, VScode, vi, text editor, programming, coding, rust, python, go',
+  keywords: data.value.head.meta.filter((x)=> x.name.toLowerCase() == "keywords")[0].content,
 });
 
 useHead({
