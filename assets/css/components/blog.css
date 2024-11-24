@@ -26,8 +26,6 @@
 .blog__card {
   background-color: #101623;
   border-radius: var(--size-lg);
-  border-color: red;
-  border-style: solid;
   padding: var(--size-lg);
   transition: transform 0.3s, box-shadow 0.3s;
   width: 100%;
@@ -44,7 +42,6 @@
   font-weight: bold;
   color: #66b3ff;
   text-decoration: none;
-  margin-bottom: 10px;
 }
 
 .blog__link:hover {
@@ -55,6 +52,7 @@
   color: #cccccc;
   font-size: 1rem;
   line-height: 1.4;
+  margin: 0;
 }
 
 

@@ -10,22 +10,17 @@ const BlogLink = h(NuxtLink, {to: "/blog"})
   </div>
   <div class="hero__intro">
     <p class="hero__text">
-        Hi, I am <Strong>Platon </Strong><span class="italic__text"> &nbsp;&nbsp; @xnpltn over the internet</span><br/>
+      Hi, I am <Strong>Xnpltn</Strong><br/>
       Don't know how you landed here but at least someone is watching my ugly site lol.
     </p>
 
     <p class="hero__text">
-      Building things is what I enjoy. Interested in <Strong>Backend</Strong> and <Strong>Terminal Applications.</Strong> &nbsp;
-      Anything Written in: <br />
-      <Strong>Go</Strong> (<span class="italic__text">My Favourite</span>), &nbsp; <Strong>Rust</Strong>, &nbsp; <Strong>C</Strong>, &nbsp;<br />
-      <Strong>Python</Strong>, &nbsp; and <Strong>Javascript</Strong> &nbsp; sign me up :/
+      Building things is what I enjoy. Interested in <Strong>Technology</Strong> and <Strong>Science</Strong> &nbsp;
     </p>
 
-    <p><Strong>VueJs</Strong> is the best web framework of all time btw!</p>
-    <p class="italic__text">Javascript doesn't belong on the server! :)</p>
     <div class="hero__buttons">
       <Button as="a" href="https://github.com/xnpltn" target="_blank">Github</Button>
-      <Button :as="BlogLink">Read my blog</Button>
+      <Button as="a" href="https://x.com/xnpltn" target="_blank">Twitter</Button>
     </div>
   </div>
 </section>
