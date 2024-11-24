@@ -1,8 +1,3 @@
-<script setup>
-  
-import { NuxtLink } from '#components'
-const BlogLink = h(NuxtLink, {to: "/blog"})
-</script>
 <template>
 <section class="hero container">
   <div class="hero__imagecontainer">
@@ -10,12 +5,12 @@ const BlogLink = h(NuxtLink, {to: "/blog"})
   </div>
   <div class="hero__intro">
     <p class="hero__text">
-      Hi, I am <Strong>Xnpltn</Strong><br/>
+      Hi, I am <Strong>Xnpltn &nbsp</Strong> <span class="italic__text">0x15</span> <br/>
       Don't know how you landed here but at least someone is watching my ugly site lol.
     </p>
 
     <p class="hero__text">
-      Building things is what I enjoy. Interested in <Strong>Technology</Strong> and <Strong>Science</Strong> &nbsp;
+        I like building things.<br/> Interested in <Strong>Technology</Strong> and <Strong>Science</Strong> &nbsp;
     </p>
 
     <div class="hero__buttons">

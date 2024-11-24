@@ -28,6 +28,7 @@
 .italic__text {
   font-style: italic;
   color: gray;
+  font-size: var(--size-sm);
 }
 
 .container {

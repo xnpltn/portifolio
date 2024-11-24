@@ -4,7 +4,7 @@ const { data } = await useAsyncData('posts', () => queryContent().find())
 
 <template>
   <section class="container blog">
-    <h1 class="blog__title">Latest Articles</h1>
+    <h1 class="blog__title">Articles</h1>
     <ul class="blog__list">
       <li v-for="post in data" :key="post._path" class="blog__item">
         <div class="blog__card">
