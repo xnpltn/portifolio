@@ -16,6 +16,7 @@
     <div class="hero__buttons">
       <Button as="a" href="https://github.com/xnpltn" target="_blank">Github</Button>
       <Button as="a" href="https://x.com/xnpltn" target="_blank">Twitter</Button>
+      <Button as="a" href="https://bsky.app/profile/xnpltn.me" target="_blank">BlueSky</Button>
     </div>
   </div>
 </section>
