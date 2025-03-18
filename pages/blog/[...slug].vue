@@ -26,6 +26,12 @@ useHead({
 
 
 <template>
-  <ContentRenderer :value="data" class="content"/>
+  <div class="container" style="padding-bottom: 1rem">
+    <NuxtLink to="/">&lArr; homepage</NuxtLink>
+  </div>
+  <ContentRenderer 
+    :value="data" 
+    class="container blog" 
+  />
 </template>
 
