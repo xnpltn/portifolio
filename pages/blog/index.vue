@@ -20,8 +20,9 @@ const { data } = await useAsyncData('posts', () => queryContent().find())
     </div>
     <h2 class="blog__title">Latest Articles</h2>
     <div class="div" v-for="post, idx in data" :key="idx">
-      <NuxtLink :to="post._path">{{ post.title}}</NuxtLink> 
+      <NuxtLink :to="'/blog'+ post._path">{{ post.title}}</NuxtLink> 
       - {{ post.description }}
+      {{ post._path}}
     </div>
     <br/>
   </section>
