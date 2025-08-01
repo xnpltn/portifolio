@@ -21,11 +21,6 @@ const { data } = await useAsyncData('posts', () => queryContent().find())
       Sometimes i write my thought. If interested, you can read my writings below :)
     </p>
 
-    <h2>Recent Articles</h2>
-    <div class="div" v-for="post, idx in data" :key="idx">
-      <NuxtLink :to="post._path">{{ post.title}}</NuxtLink> 
-      - {{ post.description }}
-    </div>
     <br/>
 
     <h2><a href="https://github.com/xnpltn">github.com/xnpltn</a></h2>
@@ -34,17 +29,19 @@ const { data } = await useAsyncData('posts', () => queryContent().find())
       - Nothing useful. but how about a chat system that runs in your terminal. 
       The best usecase for <a href="https://go.dev/">Go</a>'s channels and Goroutines.
     </div>
+
+    <div class="div">
+      <a href="https://github.com/xnpltn/portifolio">xnpltn.me</a> 
+      this portifolio website.
+    </div>
     <div class="div">
       <a href="https://github.com/xnpltn/azshop">azshop</a> 
       - An e-commerce website axample built with go htmx and alpinejs
       I was just playing out with <a href="https://templ.guide/">Templ</a>
     </div>
     <div class="div">
-      <a href="https://ai-writer.smallaitoolz.com/">AI Content Writer</a> 
-      - Generate high-quality, engaging content with no copyright images 
-      for any topic or platform in seconds. 
-      Effortlessly create blog posts, marketing copy, social media content, and more with AI-powered precision.<br/>
-      Go give me your money :/ <br/>
+      <a href="https://smallaitoolz.com/">Small AI Tools</a> 
+Explore AI-powered tools that help you save time and enhance productivity. From photo editing to content generation, SmallAITools offers simple, effective solutions for everyday tasks.
       <span class="gray">(Not public... runs on nuxt3, vuejs, supabase and stripe. Rewriting in Go.)</span>
     </div>
   </div>
